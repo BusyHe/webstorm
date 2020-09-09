@@ -1,0 +1,9 @@
+<application>
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="39.105.120.214" id="5cd2646d-27ec-4380-8097-a53576b13332" port="22" customName="39.105.120.214" nameFormat="CUSTOM" username="root" />
+      <sshConfig authType="PASSWORD" host="39.105.120.214" id="b1f47074-beb2-4b02-b93b-b6b17f60f4b0" port="22" customName="39.105.120.214" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="39.105.120.214" id="34ca01a7-a130-41ad-83b8-3bc28d298ce8" port="22" customName="39.105.120.214" nameFormat="CUSTOM" username="root" />
+    </configs>
+  </component>
+</application>
