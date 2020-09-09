@@ -1,0 +1,39 @@
+<templateSet group="user">
+  <template name="cl" value="console.log($end$)" description="console.log()" toReformat="true" toShortenFQNames="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="VUE_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ce" value="console.error($end$)" description="console.error()" toReformat="true" toShortenFQNames="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="VUE_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="scd" value="switch ($action$) {&#10;    case '$end$': {&#10;        break&#10;    }&#10;    default: {}&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="action" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="rp" value="return new Promise((resolve, reject) =&gt; {&#10;    $end$&#10;});" description="return promise" toReformat="false" toShortenFQNames="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="/**busyhe" value="/**&#10; * Created by $USER$ on $DATE$.&#10; * Email: 525118368@qq.com&#10; * Description: $DESCRIPTION$&#10; */" description="js description" toReformat="false" toShortenFQNames="true">
+    <variable name="USER" expression="user()" defaultValue="" alwaysStopAt="true" />
+    <variable name="DATE" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
